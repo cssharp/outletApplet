@@ -20,5 +20,9 @@
         "text": "日志"
       }
     ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
   }
 }
