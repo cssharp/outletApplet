@@ -10,6 +10,8 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
+    "borderStyle":"black",
+    "selectedColor":"green",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -24,5 +26,6 @@
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
-  }
+  },
+  "debug": true
 }
