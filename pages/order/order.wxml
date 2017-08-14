@@ -1,0 +1,14 @@
+ 
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+  <view class="flex item">
+
+    <input placeholder="网址" auto-focus/>
+    <input placeholder="海外价格（美元）"/>
+    <input placeholder="重量（磅）"/>
+    <textarea bindblur="bindTextAreaBlur" auto-height placeholder="备注颜色，尺码，型号等信息" />
+    <input placeholder="手机"/>
+  </view>
+    <button form-type="submit"> 提交 </button>
+  </form>
+</view>
