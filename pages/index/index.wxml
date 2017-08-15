@@ -4,7 +4,10 @@
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <button bindtap="bindViewTap"> 预约 </button>
+  <navigator url="/pages/order/order" 
+  open-type="switchTab" 
+  hover-class="other-navigator-hover">预约</navigator>
+
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>

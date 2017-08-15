@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/order/order",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/userInfo/UserInfo",
-    "pages/order/order"
+    "pages/userInfo/UserInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,11 +16,11 @@
     "selectedColor": "green",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "首页"
+        "pagePath": "pages/order/order",
+        "text": "预约"
       },
       {
-        "pagePath": "pages/userInfo/userInfo",
+        "pagePath": "pages/index/index",
         "text": "我"
       }
     ]

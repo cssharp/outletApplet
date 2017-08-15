@@ -1,4 +1,18 @@
 {
   "navigationBarTitleText": "Home",
-  "enablePullDownRefresh":true
+  "enablePullDownRefresh":true,
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "green",
+    "list": [
+      {
+        "pagePath": "pages/order/order",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我"
+      }
+    ]
+  }
 }
